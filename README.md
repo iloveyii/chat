@@ -8,6 +8,6 @@ Make changes in .htaccess file if change the name of index.php
 
 Run the server on command line as:
 
-php -q includes/daemon.php
+php -q includes/daemon.class.php
 
 It uses port 9000 so it should be free on your computer.
