@@ -1,10 +1,10 @@
 # Chat using PHP websockets
 
 This is a simple php chat application. Download to your computer and browse to http://localhost/websocket
+
 Run the server on command line as:
 ```
 php -q includes/daemon.class.php
-
 ```
 It uses port 9000 so it should be free on your computer. 
 Add JS, CSS script using PHP class
