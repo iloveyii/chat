@@ -11,10 +11,9 @@ class Chat {
 					
             $this->strPage = <<<HTML
 
-<h1 class="h1">Chat application using PHP Websockets</h1>
+<h3 class="h3">Chat application using PHP Websockets</h3>
 <div class="row">			
     <div class="col-sm-8">
-        
                     
         <div class="chat_wrapper">
             <div class="message_box" id="message_box"></div>
@@ -25,9 +24,6 @@ class Chat {
             </div>
         </div>
    
-   
-   
-   
    </div>
 
     <div class="col-sm-4"></div>
@@ -37,11 +33,9 @@ HTML;
 	}
 	
         
-	function renderBody(){ 
+	function renderBody() { 
 		return $this->strPage;
 	}
-        
-        
         
 }
 ?>

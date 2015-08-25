@@ -68,6 +68,7 @@ ini_set('display_errors', 'On');
         <a class="btn btn-success" href="chat">Start Chat</a>
         <a class="btn btn-success" href="info">Info</a>
         <a class="btn btn-success" href="cookies">Cookies</a>
+        
         <?php echo $strPage; ?>
         
     <!-- Add end of body section -->
