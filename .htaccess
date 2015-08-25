@@ -3,6 +3,6 @@ RewriteBase /
 # if a directory or a file exists, use it directly
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([a-z0-9_-]+)/?$ /websocket/index.php?action=$1 [QSA,NC]
+RewriteRule ^([a-z0-9_-]+)/?$ /home/localwww/chat/index.php?action=$1 [QSA,NC]
 # otherwise forward it to index.php
 # RewriteRule . /addscript/main.php
