@@ -1,7 +1,7 @@
 <?php
 
-define('JS_DIR', '/websocket/js/');
-define('CSS_DIR', '/websocket/css/');
+define('JS_DIR', '/home/localwww/chat/js/');
+define('CSS_DIR', '/home/localwww/chat/css/');
 
 $arJsFilesNames = [
     'jquery'=>'jquery-1.9.1.min.js',
